@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad de MultiDrive</title>
+<style>
+  :root { --fg:#1f2328; --muted:#59636e; --accent:#1f6feb; --bg:#ffffff; --line:#d1d9e0; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --muted:#9198a1; --accent:#4493f8; --bg:#0d1117; --line:#3d444d; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin-top:2em; }
+  p.lead { color:var(--muted); margin-top:0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; color:var(--muted); font-size:.9rem; border-top:1px solid var(--line); padding-top:12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de MultiDrive</h1>
+  <p class="lead">Última actualización: 20 de noviembre de 2026 · <a href="privacy.html">English</a></p>
+
+  <p>MultiDrive es una aplicación para Windows desarrollada por Mateo Vilar («el autor») que monta
+  servidores y servicios de almacenamiento en la nube como unidades del equipo. Esta política explica
+  qué datos trata la aplicación.</p>
+
+  <h2>Resumen</h2>
+  <p>MultiDrive funciona íntegramente en su equipo. El autor no tiene servidores que reciban sus
+  archivos, sus credenciales ni datos de uso. No hay cuentas de usuario, publicidad, analítica ni
+  telemetría.</p>
+
+  <h2>Datos que se guardan en su equipo</h2>
+  <p>La lista de sitios, sus opciones y las credenciales de acceso (contraseñas o permisos concedidos a
+  las nubes) se guardan solo en su equipo, cifrados con la protección de datos de Windows (DPAPI) de su
+  cuenta. Los archivos que abre se guardan temporalmente en una caché local. Puede borrarlo todo
+  eliminando los sitios o desinstalando la aplicación y borrando la carpeta
+  <code>%LOCALAPPDATA%\MultiDrive</code>.</p>
+
+  <h2>Datos de Google</h2>
+  <p>Si conecta Google Drive, MultiDrive solicita, con su consentimiento, permiso para ver, editar,
+  crear y borrar sus archivos de Google Drive. Lo usa únicamente para mostrar esos archivos como una
+  unidad en su equipo y para leer, guardar, mover y borrar los archivos cuando usted lo hace desde
+  Windows. Los datos viajan directamente entre su equipo y Google; no se envían al autor ni a terceros,
+  no se usan para publicidad ni para entrenar modelos de inteligencia artificial, y nadie los lee salvo
+  usted.</p>
+  <p>El uso y la transferencia de la información recibida de las API de Google se ajustan a la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos del
+  Usuario de los Servicios de las APIs de Google</a>, incluidos los requisitos de uso limitado.</p>
+  <p>Puede retirar el permiso en cualquier momento en
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Otras nubes y servidores</h2>
+  <p>Con OneDrive, Dropbox, Box, S3, FTP, SFTP, WebDAV u otros servicios ocurre lo mismo: MultiDrive se
+  conecta directamente desde su equipo con las credenciales que usted indica, y solo para mostrar y
+  manejar sus archivos.</p>
+
+  <h2>Actualizaciones</h2>
+  <p>Si no está desactivado, MultiDrive comprueba una vez al día si hay una versión nueva descargando un
+  pequeño fichero de GitHub (github.com). No envía datos suyos; GitHub puede registrar la dirección IP
+  de la petición según su propia política de privacidad.</p>
+
+  <h2>Licencias</h2>
+  <p>La licencia se comprueba en su equipo, sin conexión. El nombre del titular figura en la propia
+  licencia.</p>
+
+  <h2>Menores</h2>
+  <p>MultiDrive no está dirigida a menores ni recoge datos de ellos.</p>
+
+  <h2>Cambios y contacto</h2>
+  <p>Si esta política cambia, se publicará aquí con su fecha. Para cualquier consulta:
+  <a href="mailto:mateovilar@gmail.com">mateovilar@gmail.com</a>.</p>
+
+  <footer>© 2026 Mateo Vilar · <a href="index.html">MultiDrive</a></footer>
+</main>
+</body>
+</html>
