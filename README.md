@@ -3,6 +3,8 @@
 AllDrivia mounts FTP, SFTP, WebDAV, S3 and cloud storage (OneDrive, Google Drive,
 Dropbox, Box…) as Windows drive letters.
 
+Website: https://alldrivia.com
+
 This repository only hosts the installers and the update feed used by the
 application. The source code is not published here.
 
@@ -10,6 +12,8 @@ application. The source code is not published here.
 
 AllDrivia monta FTP, SFTP, WebDAV, S3 y nubes (OneDrive, Google Drive, Dropbox,
 Box…) como unidades de Windows.
+
+Web: https://alldrivia.com
 
 Este repositorio solo contiene los instaladores y la información de
 actualizaciones que consulta la aplicación. El código fuente no está aquí.
